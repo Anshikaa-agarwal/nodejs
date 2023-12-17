@@ -8,6 +8,7 @@
 
 
 //another way to import
-const {name2, greetName} = require('./exportFunc.js');
+const {name2, name1, greetName} = require('./exportFunc.js');
 console.log(greetName);
 console.log(name2);
+console.log(name1);
