@@ -12,3 +12,11 @@ const {name2, name1, greetName} = require('./exportFunc.js');
 console.log(greetName);
 console.log(name2);
 console.log(name1);
+
+greetName(name1);
+
+//importing objects
+const {humanoid} = require('./exportFunc.js')
+console.log(humanoid);
+
+//const {human} = require('./exportFunc.js')  -- it won't work as name is not the same as we exported.
