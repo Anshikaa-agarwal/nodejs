@@ -11,3 +11,6 @@ fs.writeFileSync('./text4.txt', 'A new file, text4 is created and data is added.
 
 //appends file
 fs.appendFileSync('./text1.txt', ' appended data');
+
+//create a new file async.js
+fs.writeFileSync('./async.js', '');
