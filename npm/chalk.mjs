@@ -9,3 +9,9 @@ console.log(chalk.italic("hello"));
 
 console.log(validator.isEmail('abcd@hjk.nm'));
 console.log(validator.isBoolean("110"));
+
+
+const success = (res) => {
+    console.log(chalk.greenBright.inverse(res));
+}
+success("yayy");
