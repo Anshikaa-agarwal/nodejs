@@ -12,7 +12,9 @@ module.exports = {name1, name2, greetName};
 
 //exporting objects
 const human = {
-    name: 'peter'
+    name: 'peter',
+    age: 10,
+    grade: 12
 }
 
 module.exports.humanoid = human;
