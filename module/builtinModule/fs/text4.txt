@@ -1,0 +1,1 @@
+A new file, text4 is created and data is added.
