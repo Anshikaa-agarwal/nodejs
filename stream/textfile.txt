@@ -1,0 +1,3 @@
+Here is some text written in text file. 
+We'll read data from this file and simultaneously 
+it will be printed. 
