@@ -1,3 +1,6 @@
-Here is some text written in text file. 
 We'll read data from this file and simultaneously 
-it will be printed. 
+it will be printed (i.e, streaming manner).Here is some text written in text file. 
+We'll read data from this file and simultaneously 
+it will be printed (i.e, streaming manner).Here is some text written in text file. 
+We'll read data from this file and simultaneously 
+it will be printed (i.e, streaming manner).Here is some text written in text file. 
