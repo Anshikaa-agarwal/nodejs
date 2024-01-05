@@ -6,7 +6,7 @@ const http = require('http');
 const server = http.createServer();
 
 server.on('request', (req, res) => {
-    const rstream = fs.createReadStream('textfile.txt');
+    const rstream = fs.createReadStream('textfil1e.txt');
 
     rstream.on('data', (chunkdata) => {
         res.write(chunkdata);
@@ -14,6 +14,12 @@ server.on('request', (req, res) => {
 
     rstream.on('data', () => {
         res.end();
+    });
+
+    rstream.on('error', (err) => {
+        console.log("yay")
+        console.log(err);
+        console.log("yay")
     });
 });
 
